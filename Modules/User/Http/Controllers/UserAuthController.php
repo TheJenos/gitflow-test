@@ -25,9 +25,6 @@ class UserAuthController extends Controller
         }
 
         return response()->json(['error'=>'auth fail'],422);
-
-
-
     }
 
     public function currentUser(){
